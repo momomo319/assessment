@@ -1,4 +1,5 @@
 'use strict';
+
 const userNameInput    = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
 const resultDivision   = document.getElementById('result-area');
@@ -80,6 +81,7 @@ const answers = [
   '###userName###のいいところは気配りです。###userName###の配慮が多くの人を救っています。',
   '###userName###のいいところはそのすべてです。ありのままの###userName###自身がいいところなのです。',
   '###userName###のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる###userName###が皆から評価されています。',
+  '###userName###のいいところは優しさです。###userName###の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。',
 ];
 
 /**
@@ -138,3 +140,4 @@ function test() {
   console.log('診断結果の文章のテスト終了');
 }
 test();
+
